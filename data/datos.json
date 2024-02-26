@@ -1,0 +1,173 @@
+{
+    "carpeta": {
+        "descargas": "D:/Usuarios/lmartiur/Downloads",
+        "dataframes": "data/dataframes/",
+        "data": "data/",
+        "informe": "data/OPP/",
+        "backlog":"data/backlog/", 
+        "account": "data/PlanCuentas/"
+    },
+
+    "archivos": {
+
+        "RUTA": "data/OPP/correos.xlsx",
+
+        "OA": "data/OPP/OA.xlsx",
+        "Informe OPP general": "data/OPP/Informe OPP general.xlsm",
+        
+        "NPI": "data/backlog/NPI.xlsx",
+        "Informe Backlog": "data/backlog/Informe Backlog.xlsm",
+        
+        "AC": "data/PlanCuentas/AC.xlsx",
+        "AccountPlan": "data/PlanCuentas/Account plan.xlsm",
+        
+        "SoW": "data/PlanCuentas/SoW.xlsm",
+
+        "OX":"data/OPPX/OX.xlsx",
+        "Informe OPPX": "data/OPPX/Opps Vencidas X Ejecutivo.xlsm",
+
+        "DRB": "data/OPP/DRB.xlsm",
+        
+        "tuto": "Manual_Usuario_AutomaTIGO.pdf",
+        "variables": "data/datos.json",
+        "automatizacion": "Manual_automatizacion_Automatigo.pdf",
+        "coordenadas": "data/coordenadas.json",
+
+        "PBi Informe Opp": "data/OPP/Oportunidades.pbix",
+        "PBi Informe BL": "data/backlog/BackLog.pbix" ,
+        "PBi Informe Ac": "data/PlanCuentas/AccountPlan.pbix",
+
+        "PBi OPP": "data/OPP/InformeOppGeneral.pbix",
+        "PBi BL": "data/backlog/InformeBackLog.pbix",
+        "PBi AC": "data/PlanCuentas/InformeAc.pbix",
+
+        "manual": "MANUAL_ACTUALIZACION_INFORME.pdf"
+
+    },
+
+    "macro": {
+        "macroOPP": "OppGen",
+        "macroBL": "BacklogAUTO",
+        "AC": "AccPlan",
+        "SoW": "S0W",
+        "DRB": "drb"
+       
+    },
+
+    "columna": {
+        "ejecutivo": "Ejecutivo",
+        "oportunidad": "Oportunidad",
+        "fecha": "Fecha de cierre",
+        "probabilidad": "Probabilidad",
+        "etapa": "Etapa",
+        "ventaNeta": "Venta neta(total)",
+        "producto": "Producto",
+        "cliente": "Cliente",
+        "porcentajeCompletitud": "Promedio de Porcentaje Completitud",
+        "precioSinIva": "Suma de Precio sin IVA",
+        "tipoProducto": "Tipo Producto",
+        "a\u00f1o": "A\u00f1o",
+
+        "nombre": "NOMBRE",
+        "correo": "CORREO"
+
+    },
+
+    "link": {
+        "OPP": "https://tigob2b.lightning.force.com/lightning/r/Report/00OPQ000000aXYX2A2/view",
+        "BL": "https://tigob2b.lightning.force.com/lightning/r/Report/00O5a000007mzexEAA/view",
+        "AC": "https://tigob2b.lightning.force.com/lightning/r/Report/00O5a000007qlvVEAQ/view?reportFilters=%5B%7Bvalue%3AGobierno%2Coperator%3Aequals%2Ccolumn%3AAccount.Segment__c%7D%5D",
+        
+        "OPPX": "https://tigob2b.lightning.force.com/lightning/r/Report/00OPQ000000ZvUr2AK/view",
+
+        "repo": "https://github.com/AnaRianOwO/AutomaTIGO/",
+        
+        "PBiG": "https://app.powerbi.com/links/6puw-ZNQfd?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare",
+        "PBiBL": "https://app.powerbi.com/links/DOBUteyQ2q?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare",
+        "PBiAP": "https://app.powerbi.com/links/m_wyVWYlU1?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkSharep",
+        
+        "PBiOPP": "https://app.powerbi.com/links/im9Jd7VIOE?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare",
+        "PBiBACK" : "https://app.powerbi.com/links/ewiQf_1tb3?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare",
+        "PBiACP" : "https://app.powerbi.com/links/GPOxHmK3HH?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare"
+    },
+
+    "hoja": {
+
+        "HOJA": "Directorio",
+
+        "FastTrack": "Candidatos fast track",
+        "ProximoVencer": "PROXIMO A VENCER",
+        "VentaNeta": "VENTA NETA (-)",
+        "Productos0": "VALORES 0",
+        "General": "PRODUCTO X EQUIPO",
+        "AccountPlan": "Plan de cuentas PROMEDIO",
+        "SoW": "SoW x ejecutivo y %",
+        "DRB": "DRB",
+        "BL": "CASOS A REVISAR",
+        "DRBacklog": "Negocios_Pendientes_Implementac",
+        "DROPP": "Oportunidades_Abiertas_CO SIN A",
+        "DRAC": "Account Plan X Porcentaje Mayor"
+        
+    },
+
+    "tabla": {
+        "FastTrack": "FastTrack",
+        "EsteMes": "EsteMes",
+        "VentaNeta": "VentaNeta-",
+        "Productos0": "Productos0",
+        "Oportunidad0": "preciototal0",
+        "General": "General",
+        "AccountPlan": "AP-70%",
+        "SoW": "SoW-70%",
+        "DRB": "DRB",
+        "BL": "CASOSREVISAR",
+        "DRBacklog": "BLg",
+        "DROPP": "OPPs",
+        "DRAC": "AcPl"
+               
+    },
+
+    "saludo": {
+        "FastTrack": "\nBuenos d\u00edas, las siguientes oportunidades podr\u00edan aplicar a FastTrack, te las comparto a continuaci\u00f3n:\n\n",
+        "ProximoVencer": "\nBuenos d\u00edas, las siguientes oportunidades vencen pronto, te las comparto a continuaci\u00f3n: \n \n",
+        "drb": "\nBuenos d\u00edas, las siguientes oportunidades aparecen que aplican a DRB, te las comparto a continuaci\u00f3n: \n \n",
+        "oportunidadesRaras": {
+            "en cero": "\nBuenos d\u00edas, las siguientes oportunidades tienen productos con valores en cero, te las comparto a continuaci\u00f3n: \n \n",
+            "negativos": "\nBuenos d\u00edas, las siguientes oportunidades tienen productos con valores en negativo, te las comparto a continuaci\u00f3n: \n \n"
+        },
+        "clientesCompletitud": "\nBuenos d\u00edas, los siguientes son los clientes que tienen un porcentaje de completitud de menos de 70%, te las comparto a continuaci\u00f3n: \n \n" ,
+        
+        "Vencidas": "\nBuenos d\u00edas, las siguientes oportunidades podr\u00edan estar vencidas, te las comparto a continuaci\u00f3n:\n\n"
+           
+    },
+
+    "tiempoEspera": {
+        "este_es_un_minuto": 60,
+        "actualizarInforme": 20,
+        "copiarPortapapeles": 2,
+        "actualizarCoordenadas": 50,
+        "esperarCargaPagina": 50,
+        "esperarDescarga": 100,
+        "esperarDescargaLarga": 200,
+        "esperarCargaExcel": 5
+    },
+
+    "SO": {
+        "Windows": {
+            "subprocess.run": "start",
+            "notas": "notepad",
+            "carpeta": "explorer"
+        },
+        "Linux": {
+            "subprocess.run": "xdg-open",
+            "notas": "gedit",
+            "carpeta": "xdg-open"
+        },
+        "Darwin": {
+            "subprocess.run": "open",
+            "notas": "TextEdit",
+            "carpeta": "open"
+        }
+    }
+    
+}
